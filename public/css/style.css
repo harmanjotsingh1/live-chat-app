@@ -1,0 +1,95 @@
+#container{
+    
+   
+    height:60vh;
+    width:35vw;
+    padding:1em;
+    overflow:auto;
+    
+}
+#outermost{
+    border-radius: 10px;
+    border-style: solid;
+    overflow:auto;
+   
+}
+#header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:aqua;
+    height: 12vh;
+    width: 100%;
+    
+
+}
+#message{
+    position: absolute;
+    left:34%;
+    bottom: -10%;
+    
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ #userid,#usermsg{
+     padding: 0.2em;
+     border-radius: 3px;
+     margin:0.2em;
+     font-size:20px;
+     width: 80%;
+     
+     
+ }
+ 
+ 
+ input:focus{
+    
+     outline: none;
+ }
+
+ #output{
+     overflow:auto;
+     
+    
+     
+ }
+
+ 
+ #para{
+     width: fit-content;
+     border-style: solid;
+     border-radius: 5px;
+     padding:0.2em;
+     
+
+ }
+ #feedback{
+     color:lightgray;
+ }
+
+
+ @media only screen and (max-width:830px){
+    #userid,#usermsg{
+        padding: 0.1em;
+        border-radius: 3px;
+        font-size:10px;
+        width:90%;
+        
+        
+    }
+    
+
+   #container{
+       width:55vw;
+   }
+   #message{
+    position: absolute;
+    left:24%;
+    bottom: 14%;
+    
+}
+ }
